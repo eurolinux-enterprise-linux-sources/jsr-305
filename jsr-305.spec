@@ -1,6 +1,6 @@
 Name:           jsr-305
 Version:        0
-Release:        0.17.20090319svn%{?dist}
+Release:        0.18.20090319svn%{?dist}
 Summary:        Correctness annotations for Java code
 
 # The majority of code is BSD-licensed, but some Java sources
@@ -56,6 +56,9 @@ cp %{SOURCE1} NOTICE-CC-BY
 %doc ri/LICENSE NOTICE-CC-BY
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0-0.18.20090319svn
+- Mass rebuild 2013-12-27
+
 * Fri Jul 12 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0-0.17.20090319svn
 - Remove workaround for rpm bug #646523
 
